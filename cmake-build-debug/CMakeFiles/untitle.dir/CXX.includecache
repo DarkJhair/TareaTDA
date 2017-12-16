@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jhair/CLionProjects/untitle/ListaTDA.cpp
+
+C:/Users/Jhair/CLionProjects/untitle/ListaTDA.h
+nodo.h
+C:/Users/Jhair/CLionProjects/untitle/nodo.h
+
+C:/Users/Jhair/CLionProjects/untitle/Nodo.cpp
+
+C:/Users/Jhair/CLionProjects/untitle/main.cpp
+iostream
+-
+ListaTDA.h
+C:/Users/Jhair/CLionProjects/untitle/ListaTDA.h
+
+C:/Users/Jhair/CLionProjects/untitle/nodo.h
+iostream
+-
+
