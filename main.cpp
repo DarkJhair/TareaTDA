@@ -6,7 +6,7 @@ using namespace std;
 
 
 int main() {
-    ListaTDA lista;
+    ListaTDA<string> lista;
     cout << "Hello, World!" << endl;
     lista.agregar("hola");
 

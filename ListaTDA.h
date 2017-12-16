@@ -19,7 +19,6 @@ public:
     void insertar_pos(T,int);
     void borrar_poscicion(int);
 
-
     ListaTDA();
 };
 
@@ -32,44 +31,44 @@ ListaTDA<T>::ListaTDA(){
 
 template<typename T>
 void ListaTDA<T>::agregar(T nom){
-Nodo<T>* nuevo=new Nodo<T>(nom);
-if(inicio==NULL&&final==NULL){
-inicio=nuevo;
-final=nuevo;
-}else{
-final->sig=nuevo;
-nuevo->ant=final;
-final=nuevo;
-}
-cantidad_elementos++;
-return;
+    Nodo<T>* nuevo=new Nodo<T>(nom);
+    if(inicio==NULL&&final==NULL){
+        inicio=nuevo;
+        final=nuevo;
+    }else{
+        final->sig=nuevo;
+        nuevo->ant=final;
+        final=nuevo;
+    }
+    cantidad_elementos++;
+    return;
 }
 
 template<typename T>
 void ListaTDA<T>::insertar_pos(T nom,int pos){
-Nodo<T>*nuevo = new Nodo<T>(nom);
-if(pos<cantidad_elementos || pos>cantidad_elementos){
-return;
-}else if(pos==0){
-nuevo->sig=inicio;
-inicio=nuevo->sig;
-}else if(pos==cantidad_elementos){
-final->sig=nuevo;
-nuevo->ant=final;
-final=nuevo;
-}else{
-Nodo<T>*temp=inicio;
-for(int i=0;i<pos-1;i++){
-temp=temp->sig;
-}
-temp->sig->ant = nuevo;
-nuevo->ant = temp;
-nuevo->sig = temp->sig;
-temp->sig = nuevo;
+    Nodo<T>*nuevo = new Nodo<T>(nom);
+    if(pos<cantidad_elementos || pos>cantidad_elementos){
+        return;
+    }else if(pos==0){
+        nuevo->sig=inicio;
+        inicio=nuevo->sig;
+        }else if(pos==cantidad_elementos){
+        final->sig=nuevo;
+        nuevo->ant=final;
+        final=nuevo;
+    }else{
+        Nodo<T>*temp=inicio;
+        for(int i=0;i<pos-1;i++){
+        temp=temp->sig;
+        }
+        temp->sig->ant = nuevo;
+        nuevo->ant = temp;
+        nuevo->sig = temp->sig;
+        temp->sig = nuevo;
 
-}
-cantidad_elementos++;
-return;
+    }
+    cantidad_elementos++;
+    return;
 
 }
 template<typename T>
@@ -100,6 +99,7 @@ void ListaTDA<T>::borrar_poscicion(int pos){
     cantidad_elementos--;
     return;
 }
+
 
 
 #endif //UNTITLE_NODO_H
