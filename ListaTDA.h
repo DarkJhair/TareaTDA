@@ -23,8 +23,8 @@ public:
     ListaTDA();
 };
 
-
-ListaTDA::ListaTDA(){
+template<typename T>
+ListaTDA<T>::ListaTDA(){
     this->cantidad_elementos=0;
     this->inicio=NULL;
     this->final=NULL;

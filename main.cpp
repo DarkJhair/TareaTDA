@@ -3,10 +3,10 @@ using namespace std;
 
 #include "ListaTDA.h"
 
-template <typename T>
-ListaTDA lista;
+
 
 int main() {
+    ListaTDA lista;
     cout << "Hello, World!" << endl;
     lista.agregar("hola");
 
