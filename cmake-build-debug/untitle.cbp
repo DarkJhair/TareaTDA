@@ -82,6 +82,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Jhair/CLionProjects/untitle/Arista.cpp">
+			<Option target="untitle"/>
+		</Unit>
+		<Unit filename="C:/Users/Jhair/CLionProjects/untitle/Arista.h">
+			<Option target="untitle"/>
+		</Unit>
+		<Unit filename="C:/Users/Jhair/CLionProjects/untitle/Grafofo.cpp">
+			<Option target="untitle"/>
+		</Unit>
+		<Unit filename="C:/Users/Jhair/CLionProjects/untitle/Grafofo.h">
+			<Option target="untitle"/>
+		</Unit>
 		<Unit filename="C:/Users/Jhair/CLionProjects/untitle/ListaTDA.cpp">
 			<Option target="untitle"/>
 		</Unit>
@@ -92,6 +104,12 @@
 			<Option target="untitle"/>
 		</Unit>
 		<Unit filename="C:/Users/Jhair/CLionProjects/untitle/Nodo.h">
+			<Option target="untitle"/>
+		</Unit>
+		<Unit filename="C:/Users/Jhair/CLionProjects/untitle/Vertice.cpp">
+			<Option target="untitle"/>
+		</Unit>
+		<Unit filename="C:/Users/Jhair/CLionProjects/untitle/Vertice.h">
 			<Option target="untitle"/>
 		</Unit>
 		<Unit filename="C:/Users/Jhair/CLionProjects/untitle/main.cpp">

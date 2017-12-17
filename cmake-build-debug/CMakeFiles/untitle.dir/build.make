@@ -128,11 +128,86 @@ CMakeFiles/untitle.dir/ListaTDA.cpp.obj.provides: CMakeFiles/untitle.dir/ListaTD
 CMakeFiles/untitle.dir/ListaTDA.cpp.obj.provides.build: CMakeFiles/untitle.dir/ListaTDA.cpp.obj
 
 
+CMakeFiles/untitle.dir/Vertice.cpp.obj: CMakeFiles/untitle.dir/flags.make
+CMakeFiles/untitle.dir/Vertice.cpp.obj: ../Vertice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Jhair\CLionProjects\untitle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitle.dir/Vertice.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitle.dir\Vertice.cpp.obj -c C:\Users\Jhair\CLionProjects\untitle\Vertice.cpp
+
+CMakeFiles/untitle.dir/Vertice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitle.dir/Vertice.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jhair\CLionProjects\untitle\Vertice.cpp > CMakeFiles\untitle.dir\Vertice.cpp.i
+
+CMakeFiles/untitle.dir/Vertice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitle.dir/Vertice.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jhair\CLionProjects\untitle\Vertice.cpp -o CMakeFiles\untitle.dir\Vertice.cpp.s
+
+CMakeFiles/untitle.dir/Vertice.cpp.obj.requires:
+
+.PHONY : CMakeFiles/untitle.dir/Vertice.cpp.obj.requires
+
+CMakeFiles/untitle.dir/Vertice.cpp.obj.provides: CMakeFiles/untitle.dir/Vertice.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\untitle.dir\build.make CMakeFiles/untitle.dir/Vertice.cpp.obj.provides.build
+.PHONY : CMakeFiles/untitle.dir/Vertice.cpp.obj.provides
+
+CMakeFiles/untitle.dir/Vertice.cpp.obj.provides.build: CMakeFiles/untitle.dir/Vertice.cpp.obj
+
+
+CMakeFiles/untitle.dir/Arista.cpp.obj: CMakeFiles/untitle.dir/flags.make
+CMakeFiles/untitle.dir/Arista.cpp.obj: ../Arista.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Jhair\CLionProjects\untitle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitle.dir/Arista.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitle.dir\Arista.cpp.obj -c C:\Users\Jhair\CLionProjects\untitle\Arista.cpp
+
+CMakeFiles/untitle.dir/Arista.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitle.dir/Arista.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jhair\CLionProjects\untitle\Arista.cpp > CMakeFiles\untitle.dir\Arista.cpp.i
+
+CMakeFiles/untitle.dir/Arista.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitle.dir/Arista.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jhair\CLionProjects\untitle\Arista.cpp -o CMakeFiles\untitle.dir\Arista.cpp.s
+
+CMakeFiles/untitle.dir/Arista.cpp.obj.requires:
+
+.PHONY : CMakeFiles/untitle.dir/Arista.cpp.obj.requires
+
+CMakeFiles/untitle.dir/Arista.cpp.obj.provides: CMakeFiles/untitle.dir/Arista.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\untitle.dir\build.make CMakeFiles/untitle.dir/Arista.cpp.obj.provides.build
+.PHONY : CMakeFiles/untitle.dir/Arista.cpp.obj.provides
+
+CMakeFiles/untitle.dir/Arista.cpp.obj.provides.build: CMakeFiles/untitle.dir/Arista.cpp.obj
+
+
+CMakeFiles/untitle.dir/Grafofo.cpp.obj: CMakeFiles/untitle.dir/flags.make
+CMakeFiles/untitle.dir/Grafofo.cpp.obj: ../Grafofo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Jhair\CLionProjects\untitle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitle.dir/Grafofo.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitle.dir\Grafofo.cpp.obj -c C:\Users\Jhair\CLionProjects\untitle\Grafofo.cpp
+
+CMakeFiles/untitle.dir/Grafofo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitle.dir/Grafofo.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jhair\CLionProjects\untitle\Grafofo.cpp > CMakeFiles\untitle.dir\Grafofo.cpp.i
+
+CMakeFiles/untitle.dir/Grafofo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitle.dir/Grafofo.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jhair\CLionProjects\untitle\Grafofo.cpp -o CMakeFiles\untitle.dir\Grafofo.cpp.s
+
+CMakeFiles/untitle.dir/Grafofo.cpp.obj.requires:
+
+.PHONY : CMakeFiles/untitle.dir/Grafofo.cpp.obj.requires
+
+CMakeFiles/untitle.dir/Grafofo.cpp.obj.provides: CMakeFiles/untitle.dir/Grafofo.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\untitle.dir\build.make CMakeFiles/untitle.dir/Grafofo.cpp.obj.provides.build
+.PHONY : CMakeFiles/untitle.dir/Grafofo.cpp.obj.provides
+
+CMakeFiles/untitle.dir/Grafofo.cpp.obj.provides.build: CMakeFiles/untitle.dir/Grafofo.cpp.obj
+
+
 # Object files for target untitle
 untitle_OBJECTS = \
 "CMakeFiles/untitle.dir/main.cpp.obj" \
 "CMakeFiles/untitle.dir/Nodo.cpp.obj" \
-"CMakeFiles/untitle.dir/ListaTDA.cpp.obj"
+"CMakeFiles/untitle.dir/ListaTDA.cpp.obj" \
+"CMakeFiles/untitle.dir/Vertice.cpp.obj" \
+"CMakeFiles/untitle.dir/Arista.cpp.obj" \
+"CMakeFiles/untitle.dir/Grafofo.cpp.obj"
 
 # External object files for target untitle
 untitle_EXTERNAL_OBJECTS =
@@ -140,11 +215,14 @@ untitle_EXTERNAL_OBJECTS =
 untitle.exe: CMakeFiles/untitle.dir/main.cpp.obj
 untitle.exe: CMakeFiles/untitle.dir/Nodo.cpp.obj
 untitle.exe: CMakeFiles/untitle.dir/ListaTDA.cpp.obj
+untitle.exe: CMakeFiles/untitle.dir/Vertice.cpp.obj
+untitle.exe: CMakeFiles/untitle.dir/Arista.cpp.obj
+untitle.exe: CMakeFiles/untitle.dir/Grafofo.cpp.obj
 untitle.exe: CMakeFiles/untitle.dir/build.make
 untitle.exe: CMakeFiles/untitle.dir/linklibs.rsp
 untitle.exe: CMakeFiles/untitle.dir/objects1.rsp
 untitle.exe: CMakeFiles/untitle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Jhair\CLionProjects\untitle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable untitle.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Jhair\CLionProjects\untitle\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable untitle.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitle.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -155,6 +233,9 @@ CMakeFiles/untitle.dir/build: untitle.exe
 CMakeFiles/untitle.dir/requires: CMakeFiles/untitle.dir/main.cpp.obj.requires
 CMakeFiles/untitle.dir/requires: CMakeFiles/untitle.dir/Nodo.cpp.obj.requires
 CMakeFiles/untitle.dir/requires: CMakeFiles/untitle.dir/ListaTDA.cpp.obj.requires
+CMakeFiles/untitle.dir/requires: CMakeFiles/untitle.dir/Vertice.cpp.obj.requires
+CMakeFiles/untitle.dir/requires: CMakeFiles/untitle.dir/Arista.cpp.obj.requires
+CMakeFiles/untitle.dir/requires: CMakeFiles/untitle.dir/Grafofo.cpp.obj.requires
 
 .PHONY : CMakeFiles/untitle.dir/requires
 

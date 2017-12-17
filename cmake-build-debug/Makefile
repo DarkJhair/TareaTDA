@@ -122,6 +122,60 @@ untitle/fast:
 	$(MAKE) -f CMakeFiles\untitle.dir\build.make CMakeFiles/untitle.dir/build
 .PHONY : untitle/fast
 
+Arista.obj: Arista.cpp.obj
+
+.PHONY : Arista.obj
+
+# target to build an object file
+Arista.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitle.dir\build.make CMakeFiles/untitle.dir/Arista.cpp.obj
+.PHONY : Arista.cpp.obj
+
+Arista.i: Arista.cpp.i
+
+.PHONY : Arista.i
+
+# target to preprocess a source file
+Arista.cpp.i:
+	$(MAKE) -f CMakeFiles\untitle.dir\build.make CMakeFiles/untitle.dir/Arista.cpp.i
+.PHONY : Arista.cpp.i
+
+Arista.s: Arista.cpp.s
+
+.PHONY : Arista.s
+
+# target to generate assembly for a file
+Arista.cpp.s:
+	$(MAKE) -f CMakeFiles\untitle.dir\build.make CMakeFiles/untitle.dir/Arista.cpp.s
+.PHONY : Arista.cpp.s
+
+Grafofo.obj: Grafofo.cpp.obj
+
+.PHONY : Grafofo.obj
+
+# target to build an object file
+Grafofo.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitle.dir\build.make CMakeFiles/untitle.dir/Grafofo.cpp.obj
+.PHONY : Grafofo.cpp.obj
+
+Grafofo.i: Grafofo.cpp.i
+
+.PHONY : Grafofo.i
+
+# target to preprocess a source file
+Grafofo.cpp.i:
+	$(MAKE) -f CMakeFiles\untitle.dir\build.make CMakeFiles/untitle.dir/Grafofo.cpp.i
+.PHONY : Grafofo.cpp.i
+
+Grafofo.s: Grafofo.cpp.s
+
+.PHONY : Grafofo.s
+
+# target to generate assembly for a file
+Grafofo.cpp.s:
+	$(MAKE) -f CMakeFiles\untitle.dir\build.make CMakeFiles/untitle.dir/Grafofo.cpp.s
+.PHONY : Grafofo.cpp.s
+
 ListaTDA.obj: ListaTDA.cpp.obj
 
 .PHONY : ListaTDA.obj
@@ -176,6 +230,33 @@ Nodo.cpp.s:
 	$(MAKE) -f CMakeFiles\untitle.dir\build.make CMakeFiles/untitle.dir/Nodo.cpp.s
 .PHONY : Nodo.cpp.s
 
+Vertice.obj: Vertice.cpp.obj
+
+.PHONY : Vertice.obj
+
+# target to build an object file
+Vertice.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitle.dir\build.make CMakeFiles/untitle.dir/Vertice.cpp.obj
+.PHONY : Vertice.cpp.obj
+
+Vertice.i: Vertice.cpp.i
+
+.PHONY : Vertice.i
+
+# target to preprocess a source file
+Vertice.cpp.i:
+	$(MAKE) -f CMakeFiles\untitle.dir\build.make CMakeFiles/untitle.dir/Vertice.cpp.i
+.PHONY : Vertice.cpp.i
+
+Vertice.s: Vertice.cpp.s
+
+.PHONY : Vertice.s
+
+# target to generate assembly for a file
+Vertice.cpp.s:
+	$(MAKE) -f CMakeFiles\untitle.dir\build.make CMakeFiles/untitle.dir/Vertice.cpp.s
+.PHONY : Vertice.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -212,12 +293,21 @@ help:
 	@echo ... untitle
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Arista.obj
+	@echo ... Arista.i
+	@echo ... Arista.s
+	@echo ... Grafofo.obj
+	@echo ... Grafofo.i
+	@echo ... Grafofo.s
 	@echo ... ListaTDA.obj
 	@echo ... ListaTDA.i
 	@echo ... ListaTDA.s
 	@echo ... Nodo.obj
 	@echo ... Nodo.i
 	@echo ... Nodo.s
+	@echo ... Vertice.obj
+	@echo ... Vertice.i
+	@echo ... Vertice.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

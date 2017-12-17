@@ -18,7 +18,8 @@ public:
     void agregar(T);
     void insertar_pos(T,int);
     void borrar_poscicion(int);
-    int obtener(int);
+    T obtener(int);
+    int tamano_lista();
     void imprimir();
     ListaTDA();
 };
@@ -101,8 +102,13 @@ void ListaTDA<T>::borrar_poscicion(int pos){
     return;
 }
 
-/*template <typename T>
-int ListaTDA<T>::obtener(int pos) {
+template<typename T>
+int ListaTDA<T>::tamano_lista() {
+    return cantidad_elementos;
+}
+
+template <typename T>
+T ListaTDA<T>::obtener(int pos) {
     Nodo<T>*tmp;
     for (int i = 0; i < pos; i++) {
         tmp=tmp->sig;
@@ -111,7 +117,7 @@ int ListaTDA<T>::obtener(int pos) {
 }
 
 
-
+/*
 
 template <typename T>
 void ListaTDA<T>::imprimir() {

@@ -4,8 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Jhair/CLionProjects/untitle/Arista.cpp" "C:/Users/Jhair/CLionProjects/untitle/cmake-build-debug/CMakeFiles/untitle.dir/Arista.cpp.obj"
+  "C:/Users/Jhair/CLionProjects/untitle/Grafofo.cpp" "C:/Users/Jhair/CLionProjects/untitle/cmake-build-debug/CMakeFiles/untitle.dir/Grafofo.cpp.obj"
   "C:/Users/Jhair/CLionProjects/untitle/ListaTDA.cpp" "C:/Users/Jhair/CLionProjects/untitle/cmake-build-debug/CMakeFiles/untitle.dir/ListaTDA.cpp.obj"
   "C:/Users/Jhair/CLionProjects/untitle/Nodo.cpp" "C:/Users/Jhair/CLionProjects/untitle/cmake-build-debug/CMakeFiles/untitle.dir/Nodo.cpp.obj"
+  "C:/Users/Jhair/CLionProjects/untitle/Vertice.cpp" "C:/Users/Jhair/CLionProjects/untitle/cmake-build-debug/CMakeFiles/untitle.dir/Vertice.cpp.obj"
   "C:/Users/Jhair/CLionProjects/untitle/main.cpp" "C:/Users/Jhair/CLionProjects/untitle/cmake-build-debug/CMakeFiles/untitle.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
