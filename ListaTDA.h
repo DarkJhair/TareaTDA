@@ -18,7 +18,8 @@ public:
     void agregar(T);
     void insertar_pos(T,int);
     void borrar_poscicion(int);
-
+    int obtener(int);
+    void imprimir();
     ListaTDA();
 };
 
@@ -100,6 +101,30 @@ void ListaTDA<T>::borrar_poscicion(int pos){
     return;
 }
 
+/*template <typename T>
+int ListaTDA<T>::obtener(int pos) {
+    Nodo<T>*tmp;
+    for (int i = 0; i < pos; i++) {
+        tmp=tmp->sig;
+    }
+    return tmp->valor;
+}
+
+
+
+
+template <typename T>
+void ListaTDA<T>::imprimir() {
+    Nodo<T>*tmp=inicio;
+    cout<<"-------------------------------------"<<endl;
+    for (int i = 0; i <= cantidad_elementos ; i++) {
+        cout<<"1.Poscicion: "<<i<<endl;
+        cout<<"2.Nombre: ";
+        cout<< (tmp->valor)<<endl;
+        tmp=tmp->sig;
+        cout<<"-------------------------------------"<<endl;
+    }
+}*/
 
 
 #endif //UNTITLE_NODO_H
