@@ -36,12 +36,13 @@ int main() {
                 string inicio,destino;
                 cout<<"----------------------------------------------"<<endl;
                 cout<<"*****- Crear una 2 vertices para crear arista -*****"<<endl;
-                cout<<"Ingresa el peso"<<endl;
-                cin>>peso;
+
                 cout<<"Agrega el inicio de la arista"<<endl;
                 cin>>inicio;
                 cout<<"Agrega el destino de la arista"<<endl;
                 cin>>destino;
+                cout<<"Ingresa el peso"<<endl;
+                cin>>peso;
 
                 hola.aggArista(peso,inicio,destino);
                 cout<<"----------------------------------------------"<<endl;

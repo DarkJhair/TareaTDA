@@ -39,7 +39,7 @@ void Grafofo::aggvertice(string nom) {
 }
 
 void Grafofo::aggArista(int peso, string inicio, string destino) {
-    int cont, guardar_inicio;
+    int cont=0, guardar_inicio=0;
     Arista *nueva_arista = new Arista();
     for (int i = 0; i < ListaVertices.tamano_lista() ; i++) {
         if (ListaVertices.obtener(i)->nombre == inicio) {
@@ -52,12 +52,12 @@ void Grafofo::aggArista(int peso, string inicio, string destino) {
             cont ++;
         }
     }
-        if(cont<2){
-            cout<<"Faltan vertices o no existen"<<endl;
-        } else{
-            nueva_arista->peso=peso;
-            ListaVertices.obtener(guardar_inicio)->ListaArista.agregar(nueva_arista);
-            cout<<"se agrego correctamente"<<endl;
+    if(cont<2){
+        cout<<"Faltan vertices o no existen"<<endl;
+    } else{
+        nueva_arista->peso=peso;
+        ListaVertices.obtener(guardar_inicio)->ListaArista.agregar(nueva_arista);
+        cout<<"se agrego correctamente"<<endl;
     }
 }
 
